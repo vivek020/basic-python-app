@@ -2,8 +2,6 @@ FROM vivekhash/ubuntu-nginx:latest
 
 MAINTAINER vivek
 
-WORKDIR /home/vivek/pyapp.com/
-
 RUN apt-get update
 RUN apt-get -y install nginx
 
