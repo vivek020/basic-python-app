@@ -2,6 +2,8 @@ FROM vivekhash/ubuntu-nginx:latest
 
 MAINTAINER vivek
 
+WORKDIR .
+
 RUN apt-get update
 RUN apt-get -y install nginx
 
